@@ -1,0 +1,14 @@
+//
+// Created by thehe on 8/5/2024.
+//
+
+#ifndef LAB_PROBLEM1_FILENOTFOUNDEXCEPTION_H
+#define LAB_PROBLEM1_FILENOTFOUNDEXCEPTION_H
+
+
+class FileNotFoundException {
+
+};
+
+
+#endif //LAB_PROBLEM1_FILENOTFOUNDEXCEPTION_H
