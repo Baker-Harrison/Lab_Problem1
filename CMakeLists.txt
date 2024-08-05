@@ -11,4 +11,6 @@ add_executable(Lab_Problem1 main.cpp
         src/Exceptions/CoordinateOutOfRangeException.cpp
         include/Exceptions/CoordinateOutOfRangeException.h
         src/Exceptions/ColorVectorOutOfRangeException.cpp
-        include/Exceptions/ColorVectorOutOfRangeException.h)
+        include/Exceptions/ColorVectorOutOfRangeException.h
+        include/Color.h
+        src/Color.cpp)

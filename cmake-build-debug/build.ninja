@@ -55,29 +55,41 @@ build CMakeFiles/Lab_Problem1.dir/main.cpp.obj: CXX_COMPILER__Lab_Problem1_unsca
   OBJECT_DIR = CMakeFiles\Lab_Problem1.dir
   OBJECT_FILE_DIR = CMakeFiles\Lab_Problem1.dir
 
-build CMakeFiles/Lab_Problem1.dir/FileNotFoundException.cpp.obj: CXX_COMPILER__Lab_Problem1_unscanned_Debug C$:/Users/thehe/CLionProjects/CPP/Lab-Problem1/FileNotFoundException.cpp || cmake_object_order_depends_target_Lab_Problem1
-  DEP_FILE = CMakeFiles\Lab_Problem1.dir\FileNotFoundException.cpp.obj.d
+build CMakeFiles/Lab_Problem1.dir/src/Exceptions/FileNotFoundException.cpp.obj: CXX_COMPILER__Lab_Problem1_unscanned_Debug C$:/Users/thehe/CLionProjects/CPP/Lab-Problem1/src/Exceptions/FileNotFoundException.cpp || cmake_object_order_depends_target_Lab_Problem1
+  DEP_FILE = CMakeFiles\Lab_Problem1.dir\src\Exceptions\FileNotFoundException.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Lab_Problem1.dir
-  OBJECT_FILE_DIR = CMakeFiles\Lab_Problem1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Lab_Problem1.dir\src\Exceptions
 
-build CMakeFiles/Lab_Problem1.dir/ColorFileFormatException.cpp.obj: CXX_COMPILER__Lab_Problem1_unscanned_Debug C$:/Users/thehe/CLionProjects/CPP/Lab-Problem1/ColorFileFormatException.cpp || cmake_object_order_depends_target_Lab_Problem1
-  DEP_FILE = CMakeFiles\Lab_Problem1.dir\ColorFileFormatException.cpp.obj.d
+build CMakeFiles/Lab_Problem1.dir/src/Exceptions/ColorFileFormatException.cpp.obj: CXX_COMPILER__Lab_Problem1_unscanned_Debug C$:/Users/thehe/CLionProjects/CPP/Lab-Problem1/src/Exceptions/ColorFileFormatException.cpp || cmake_object_order_depends_target_Lab_Problem1
+  DEP_FILE = CMakeFiles\Lab_Problem1.dir\src\Exceptions\ColorFileFormatException.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Lab_Problem1.dir
-  OBJECT_FILE_DIR = CMakeFiles\Lab_Problem1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Lab_Problem1.dir\src\Exceptions
 
-build CMakeFiles/Lab_Problem1.dir/CoordinateOutOfRangeException.cpp.obj: CXX_COMPILER__Lab_Problem1_unscanned_Debug C$:/Users/thehe/CLionProjects/CPP/Lab-Problem1/CoordinateOutOfRangeException.cpp || cmake_object_order_depends_target_Lab_Problem1
-  DEP_FILE = CMakeFiles\Lab_Problem1.dir\CoordinateOutOfRangeException.cpp.obj.d
+build CMakeFiles/Lab_Problem1.dir/src/Exceptions/CoordinateOutOfRangeException.cpp.obj: CXX_COMPILER__Lab_Problem1_unscanned_Debug C$:/Users/thehe/CLionProjects/CPP/Lab-Problem1/src/Exceptions/CoordinateOutOfRangeException.cpp || cmake_object_order_depends_target_Lab_Problem1
+  DEP_FILE = CMakeFiles\Lab_Problem1.dir\src\Exceptions\CoordinateOutOfRangeException.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Lab_Problem1.dir
-  OBJECT_FILE_DIR = CMakeFiles\Lab_Problem1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Lab_Problem1.dir\src\Exceptions
 
-build CMakeFiles/Lab_Problem1.dir/ColorVectorOutOfRangeException.cpp.obj: CXX_COMPILER__Lab_Problem1_unscanned_Debug C$:/Users/thehe/CLionProjects/CPP/Lab-Problem1/ColorVectorOutOfRangeException.cpp || cmake_object_order_depends_target_Lab_Problem1
-  DEP_FILE = CMakeFiles\Lab_Problem1.dir\ColorVectorOutOfRangeException.cpp.obj.d
+build CMakeFiles/Lab_Problem1.dir/src/Exceptions/ColorVectorOutOfRangeException.cpp.obj: CXX_COMPILER__Lab_Problem1_unscanned_Debug C$:/Users/thehe/CLionProjects/CPP/Lab-Problem1/src/Exceptions/ColorVectorOutOfRangeException.cpp || cmake_object_order_depends_target_Lab_Problem1
+  DEP_FILE = CMakeFiles\Lab_Problem1.dir\src\Exceptions\ColorVectorOutOfRangeException.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Lab_Problem1.dir
-  OBJECT_FILE_DIR = CMakeFiles\Lab_Problem1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Lab_Problem1.dir\src\Exceptions
+
+build CMakeFiles/Lab_Problem1.dir/src/ColorVector.cpp.obj: CXX_COMPILER__Lab_Problem1_unscanned_Debug C$:/Users/thehe/CLionProjects/CPP/Lab-Problem1/src/ColorVector.cpp || cmake_object_order_depends_target_Lab_Problem1
+  DEP_FILE = CMakeFiles\Lab_Problem1.dir\src\ColorVector.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Lab_Problem1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Lab_Problem1.dir\src
+
+build CMakeFiles/Lab_Problem1.dir/src/Color.cpp.obj: CXX_COMPILER__Lab_Problem1_unscanned_Debug C$:/Users/thehe/CLionProjects/CPP/Lab-Problem1/src/Color.cpp || cmake_object_order_depends_target_Lab_Problem1
+  DEP_FILE = CMakeFiles\Lab_Problem1.dir\src\Color.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Lab_Problem1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Lab_Problem1.dir\src
 
 
 # =============================================================================
@@ -87,7 +99,7 @@ build CMakeFiles/Lab_Problem1.dir/ColorVectorOutOfRangeException.cpp.obj: CXX_CO
 #############################################
 # Link the executable Lab_Problem1.exe
 
-build Lab_Problem1.exe: CXX_EXECUTABLE_LINKER__Lab_Problem1_Debug CMakeFiles/Lab_Problem1.dir/main.cpp.obj CMakeFiles/Lab_Problem1.dir/FileNotFoundException.cpp.obj CMakeFiles/Lab_Problem1.dir/ColorFileFormatException.cpp.obj CMakeFiles/Lab_Problem1.dir/CoordinateOutOfRangeException.cpp.obj CMakeFiles/Lab_Problem1.dir/ColorVectorOutOfRangeException.cpp.obj
+build Lab_Problem1.exe: CXX_EXECUTABLE_LINKER__Lab_Problem1_Debug CMakeFiles/Lab_Problem1.dir/main.cpp.obj CMakeFiles/Lab_Problem1.dir/src/Exceptions/FileNotFoundException.cpp.obj CMakeFiles/Lab_Problem1.dir/src/Exceptions/ColorFileFormatException.cpp.obj CMakeFiles/Lab_Problem1.dir/src/Exceptions/CoordinateOutOfRangeException.cpp.obj CMakeFiles/Lab_Problem1.dir/src/Exceptions/ColorVectorOutOfRangeException.cpp.obj CMakeFiles/Lab_Problem1.dir/src/ColorVector.cpp.obj CMakeFiles/Lab_Problem1.dir/src/Color.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Lab_Problem1.dir
