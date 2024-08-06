@@ -1,6 +1,7 @@
 //
 // Created by Harrison Baker on 8/5/24.
 //
+#include <vector>
 #include "../include/Picture.h"
 #include "../include/Exceptions//CoordinateOutOfRangeException.h"
 
@@ -27,7 +28,7 @@ Picture::Picture(int width, int height)
 
 
 	this->pixels.resize(this->height);
-	for (vector<Color> &row : this->pixels) {
+	for (std::vector<Color> &row : this->pixels) {
 		row.resize(this->width);
 	}
 

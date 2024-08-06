@@ -12,6 +12,7 @@ Picture
 #define LAB_PROBLEM1_PICTURE_H
 
 
+#include <vector>
 #include "Color.h"
 
 class Picture: exception
