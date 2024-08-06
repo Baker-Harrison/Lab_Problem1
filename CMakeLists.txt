@@ -13,4 +13,6 @@ add_executable(Lab_Problem1 main.cpp
         src/Exceptions/ColorVectorOutOfRangeException.cpp
         include/Exceptions/ColorVectorOutOfRangeException.h
         include/Color.h
-        src/Color.cpp)
+        src/Color.cpp
+        include/Picture.h
+        src/Picture.cpp)

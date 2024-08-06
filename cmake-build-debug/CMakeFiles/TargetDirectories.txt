@@ -1,3 +1,3 @@
-C:/Users/thehe/CLionProjects/CPP/Lab-Problem1/cmake-build-debug/CMakeFiles/Lab_Problem1.dir
-C:/Users/thehe/CLionProjects/CPP/Lab-Problem1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/thehe/CLionProjects/CPP/Lab-Problem1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/harrisonbaker/CLionProjects/Lab_Problem1/cmake-build-debug/CMakeFiles/Lab_Problem1.dir
+/Users/harrisonbaker/CLionProjects/Lab_Problem1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/harrisonbaker/CLionProjects/Lab_Problem1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
