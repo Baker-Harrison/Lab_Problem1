@@ -137,6 +137,7 @@ int main() {
 
 
 	}
+    file.close();
     cout << picture;
 
 
